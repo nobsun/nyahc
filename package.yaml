@@ -25,7 +25,10 @@ dependencies:
 - markdown-unlit >= 0.5.0
 
 library:
-  source-dirs: src
+  source-dirs:
+  - src/basicTypes
+  - src/coreSyn
+  - src/types
 
 executables:
   nyahc-exe:
